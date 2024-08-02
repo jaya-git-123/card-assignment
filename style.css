@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: PT-sans,sans-serif;
+    line-height: 1.6;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    padding: 0;
+    min-height: 100vh;
+}
+h2{
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+.head{
+    font-size: 2rem;
+    font-weight: lighter;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    padding: 50px 0;
+    /* margin: auto; */
+}
+.contents{
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+}
+.content{
+    background-color: #fff;
+    border-radius: 6px;
+    width: 275px;
+    height: 200px;
+    margin: 10px;
+    padding: 20px;
+    box-shadow: 0 0 5px;
+}
+.content h2{
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+.content p{
+    font-size: 1rem;
+    color: #555;
+    text-align: left;
+}
+p{
+    color: #555;
+}
+#supervisor{
+    border-top: 4px solid rgb(16, 202, 156);
+    position: fixed;
+    left: 225px;
+    bottom: 75px;
+}
+ #TeamBuilder{
+    border-top: 4px solid red;
+    position: fixed;
+    align-items: center;
+    top: 175px;
+ }
+ #Calculator{
+    border-top: 4px solid rgb(29, 82, 228);
+    position: fixed;
+    right: 225px;
+    bottom: 75px;
+ }
+ #Karma{
+    border-top: 4px solid rgb(255, 255, 0);
+    position:fixed;
+    bottom: 0px; 
+ }
+ img {
+    float: right;
+ }
